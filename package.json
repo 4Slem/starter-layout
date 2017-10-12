@@ -1,0 +1,33 @@
+{
+  "name": "starter-layout",
+  "version": "0.0.1",
+  "description": "starter layout template",
+  "repository": "https://github.com/krasnovskyy/starter-layout.git",
+  "author": "Alexander Krasnovskyy <alexander.kaj@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "chalk": "^2.1.0",
+    "fancy-log": "^1.3.0",
+    "git-rev-sync": "^1.9.1",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-environments": "^0.1.2",
+    "gulp-filter": "^5.0.1",
+    "gulp-header": "^1.8.9",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-newer": "^1.3.0",
+    "gulp-notify": "^3.0.0",
+    "gulp-nunjucks-render": "^2.2.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-print": "^2.0.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-size": "^2.1.0",
+    "gulp-sourcemaps": "^2.6.1",
+    "gulp-watch": "^4.3.11",
+    "moment": "^2.19.1",
+    "run-sequence": "^2.2.0"
+  }
+}
