@@ -1,1 +1,26 @@
 //typography
+@import "../abstracts/variables";
+@import "../abstracts/mixins";
+// font: [font-style] [font-variant] [font-weight] [font-size]/[line-height] [font-family];
+//100 - Thin
+//200 - Extra Light, Ultra Light
+//300 - Light
+//400 - Normal, Book, Regular
+//500 - Medium
+//600 - Semi Bold, Demi Bold
+//700 - Bold
+//800 - Extra Bold, Ultra Bold
+//900 - Black, Heavy
+
+//@include font-face("Gotham Pro", "../fonts/GothamPro/GothamProLight", 300, normal, eot woff ttf);
+//@include font-face("Gotham Pro", "../fonts/GothamPro/GothamProBold", 700, normal, eot woff ttf);
+//@include font-face("Roboto", "../fonts/Roboto/RobotoLight", 300, normal, eot woff ttf);
+
+
+
+h1, .h1 { font-size: $h1-font-size; }
+h2, .h2 { font-size: $h2-font-size; }
+h3, .h3 { font-size: $h3-font-size; }
+h4, .h4 { font-size: $h4-font-size; }
+h5, .h5 { font-size: $h5-font-size; }
+h6, .h6 { font-size: $h6-font-size; }
